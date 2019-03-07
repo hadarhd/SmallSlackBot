@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SmallSlackBot:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SmallSlackBot_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SmallSlackBot/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SmallSlackBot" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="com.github.seratch:jslack:1.1.7" />
+          <element id="library" level="project" name="jakarta.websocket:jakarta.websocket-api:1.1.1" />
+          <element id="library" level="project" name="org.apache.directory.studio:org.slf4j.api:1.7.2" />
+          <element id="library" level="project" name="org.junit.contrib:junit-theories:5.0-alpha-3" />
+          <element id="library" level="project" name="com.googlecode.sli4j:sli4j-slf4j-nop:2.0" />
+          <element id="library" level="project" name="org.slf4j:jcl-over-slf4j:1.7.26" />
+          <element id="library" level="project" name="org.glassfish.tyrus.bundles:tyrus-standalone-client:1.14" />
+          <element id="library" level="project" name="javax.net.websocket:javax.net.websocket-api:1.0-b06" />
+          <element id="library" level="project" name="javax.servlet.jsp:jsp-api:2.2.1-b03" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
